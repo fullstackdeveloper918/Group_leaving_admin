@@ -12,6 +12,7 @@ import {
   MdHelpCenter,
   MdLogout,
 } from "react-icons/md";
+import Link from "next/link";
 
 const menuItems = [
   {
@@ -81,13 +82,15 @@ const Sidebar = async () => {
   return (
     <div className="sticky top-10">
       <div className="flex items-center mb-5 gap-5">
-        <Image
-          className="object-cover rounded-full"
-          src={"/assets/images/user.png" || "/noavatar.png"}
-          alt=""
-          width="50"
-          height="50"
-        />
+        <Link href="/admin/dashboard">
+          <Image
+            className="object-cover rounded-full cursor-pointer"
+            src="/images/noavatar.png"
+            alt="User Image"
+            width={50}
+            height={50}
+          />
+        </Link>
         <div className="flex flex-col">
           <span className="font-medium">User</span>
           <span className="text-xs text-[#b7bac1]">Administrator</span>
