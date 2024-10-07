@@ -20,17 +20,17 @@ const menuItems = [
     list: [
       {
         title: "Dashboard",
-        path: "/dashboard",
+        path: "/admin/dashboard",
         icon: <MdDashboard />,
       },
       {
         title: "Users",
-        path: "/dashboard/users",
+        path: "/admin/dashboard/users",
         icon: <MdSupervisedUserCircle />,
       },
       {
         title: "Products",
-        path: "/dashboard/products",
+        path: "/admin/dashboard/products",
         icon: <MdShoppingBag />,
       },
       {
