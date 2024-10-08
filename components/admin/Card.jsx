@@ -4,7 +4,7 @@ import { MdSupervisedUserCircle } from "react-icons/md";
 const Card = ({ item }) => {
   return (
     <>
-      <div className="p-5 rounded-lg flex gap-5 cursor-pointer w-full bg-[#182237] hover:bg-[#2e374a]">
+      <div className="p-5 rounded-lg flex gap-5 cursor-pointer w-full text-white bg-[#182237] hover:bg-[#2e374a]">
         <MdSupervisedUserCircle size={24} />
         <div className="flex flex-col gap-5">
           <span className="text-2xl">{item.title}</span>

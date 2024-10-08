@@ -24,9 +24,9 @@ const Navbar = () => {
             className="border-none bg-transparent text-white"
           />
         </div>
-        <div className="flex gap-5">
-          <MdOutlineChat size={20} />
-          <MdNotifications size={20} />
+        <div className="flex gap-5 text-white">
+          <MdOutlineChat size={20}  />
+          <MdNotifications size={20}  />
           <MdPublic size={20} />
         </div>
       </div>

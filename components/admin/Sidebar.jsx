@@ -35,7 +35,7 @@ const menuItems = [
       },
       {
         title: "Transactions",
-        path: "/dashboard/transactions",
+        path: "/admin/dashboard/transactions",
         icon: <MdAttachMoney />,
       },
     ],
@@ -45,17 +45,17 @@ const menuItems = [
     list: [
       {
         title: "Revenue",
-        path: "/dashboard/revenue",
+        path: "/admin/dashboard/revenue",
         icon: <MdWork />,
       },
       {
         title: "Reports",
-        path: "/dashboard/reports",
+        path: "/admin/dashboard/reports",
         icon: <MdAnalytics />,
       },
       {
         title: "Teams",
-        path: "/dashboard/teams",
+        path: "/admin/dashboard/teams",
         icon: <MdPeople />,
       },
     ],
@@ -65,12 +65,12 @@ const menuItems = [
     list: [
       {
         title: "Settings",
-        path: "/dashboard/settings",
+        path: "/admin/dashboard/settings",
         icon: <MdOutlineSettings />,
       },
       {
         title: "Help",
-        path: "/dashboard/help",
+        path: "/admin/dashboard/help",
         icon: <MdHelpCenter />,
       },
     ],
@@ -92,7 +92,7 @@ const Sidebar = async () => {
           />
         </Link>
         <div className="flex flex-col">
-          <span className="font-medium">User</span>
+          <span className="font-medium text-[#b7bac1]">User</span>
           <span className="text-xs text-[#b7bac1]">Administrator</span>
         </div>
       </div>
