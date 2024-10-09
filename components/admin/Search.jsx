@@ -1,10 +1,13 @@
 import React from 'react'
+import { Label } from '../ui/label'
+import { Input } from '../ui/input'
 
 const Search = () => {
   return (
     <>
-     <h3>Search</h3>
-     <h5>Page</h5>
+     <Label htmlFor="search" className="text-bold">Search</Label>
+     <Input placeholder="Search..."/>
+
     </>
   )
 }
